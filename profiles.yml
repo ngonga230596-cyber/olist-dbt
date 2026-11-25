@@ -1,0 +1,8 @@
+olist:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: olist.duckdb
+      threads: 4
+      schema: dbt_ngant
